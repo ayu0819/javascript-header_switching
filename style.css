@@ -1,0 +1,63 @@
+body {
+    background-color: blueviolet;
+    margin-bottom: 3em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blueviolet;
+    transition: 0.6s;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    z-index: 999;
+    transition: 0.6s;
+    padding: 0.5em 0;
+  }
+  
+  header.sticky {
+    background-color: #fff;
+  }
+  
+  .spacer {
+    height: 10em;
+    ;
+  }
+  
+  .size {
+    padding: 0 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 0 1em;
+  }
+  
+  ul li a {
+    color: #000;
+  }
+  
+  section {
+    padding-top: 1em;
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 999;
+  }
